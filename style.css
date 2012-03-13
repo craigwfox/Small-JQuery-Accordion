@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*
+This was made by craigwfox.com
+as a part of the
+30 Days to Learn JQuery Tutorial
+on TutsPlus Premium // http://tutsplus.com
+*/
+/*Add this to your main CSS File*/
+.hide {display: none;}
+#accord {
+	width:500px;
+	height:auto;
+	margin:0 auto;
+	border:1px solid #ccc;
+	background-color:#efefef;
+}
+#accord h1 {
+	width:auto;
+	height:50px;
+	padding:0 20px;
+	margin:0;
+	background-color:rgba(255,255,255,.5);
+	border-top:1px solid #ddd;
+	line-height:50px;
+	cursor: pointer;
+}
+#accord h1:first-child {
+	border-top:0;
+}
+.tab {
+	width:auto;
+	height:auto;
+	padding:0px 20px 20px;
+	border-top:1px solid #ddd;
+}
+/*Don't brind into your main css*/
+body {
+	font:normal normal 10px/1.3em Georgia, Times, serif;
+	color: #555;
+}
+h1 {
+	font-size:250%;
+}
+p {
+	font-size:140%;
+	line-height:1.5em;
+}
